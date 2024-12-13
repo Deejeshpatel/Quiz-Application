@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .add-quiz-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header {
+    background-color: #4caf50;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .main-content {
+    max-width: 800px;
+    width: 90%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #4caf50;
+  }
+  
+  .quiz-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-label {
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  .label-1{
+    width: 100%;
+  }
+  .ms-3{
+    margin-right: 56px;
+    width: 40%;
+  }
+  
+  .form-input, .form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-textarea {
+    resize: none;
+    height: 80px;
+  }
+  
+  .question-container {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .add-button, .submit-button, .remove-button {
+    padding: 10px 15px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .add-button {
+    background-color: #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  .add-button:hover {
+    background-color: #45a049;
+  }
+  
+  .submit-button {
+    background-color: #2196f3;
+  }
+  
+  .submit-button:hover {
+    background-color: #1976d2;
+  }
+  
+  .remove-button {
+    background-color: #f44336;
+    margin-top: 10px;
+  }
+  
+  .remove-button:hover {
+    background-color: #d32f2f;
+  }
+  
